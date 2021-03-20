@@ -6,18 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="AsmResolver">
-      <HintPath>..\..\..\Maintaining\osu!Related\osu!freerect\osu!freerect V3\bin\Debug\net5.0\AsmResolver.dll</HintPath>
-    </Reference>
-    <Reference Include="AsmResolver.DotNet">
-      <HintPath>..\..\..\Maintaining\osu!Related\osu!freerect\osu!freerect V3\bin\Debug\net5.0\AsmResolver.DotNet.dll</HintPath>
-    </Reference>
-    <Reference Include="AsmResolver.PE">
-      <HintPath>..\..\..\Maintaining\osu!Related\osu!freerect\osu!freerect V3\bin\Debug\net5.0\AsmResolver.PE.dll</HintPath>
-    </Reference>
-    <Reference Include="AsmResolver.PE.File">
-      <HintPath>..\..\..\Maintaining\osu!Related\osu!freerect\osu!freerect V3\bin\Debug\net5.0\AsmResolver.PE.File.dll</HintPath>
-    </Reference>
+    <PackageReference Include="AsmResolver" Version="4.4.0" />
+    <PackageReference Include="AsmResolver.DotNet" Version="4.4.0" />
   </ItemGroup>
 
 </Project>
